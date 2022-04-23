@@ -1,9 +1,26 @@
-var range=prompt("Enter range to find Harmonic number: ");
+var num=prompt("Please enter a number in between 0-6: ")
 
-var sum=0;
-
-for (var i=1;i<=range;i++){
-    sum=sum+(1/i);
+if(num==0){
+    console.log("SUNDAY");
 }
-
-console.log("Harmonic number upto that range is: ",sum);
+else if (num==1){
+    console.log("MONDAY");
+}
+else if (num==2){
+    console.log("TUESDAY");
+}
+else if (num==3){
+    console.log("WEDNESSDAY");
+}
+else if (num==4){
+    console.log("THURSEDAY");
+}
+else if (num==5){
+    console.log("FRIDAY");
+}
+else if (num==6){
+    console.log("SATURDAY");
+}
+else{
+    console.log("Please enter number in between 0 to 6 ");
+}
