@@ -6,6 +6,7 @@ let num5= Math.floor(Math.random()*900)+100;
 
 console.log(num1,num2,num3,num4,num5);
 
+//For finding greatest between 5 number
 if (num1>num2 && num1>num3 && num1>num4 && num1>num5){
     console.log("First number is Largest number: ",num1);
 }
@@ -22,6 +23,7 @@ else{
     console.log("Fifth number is Largest Number: ",num5);
 }
 
+//For finding smallest between 5 number
 if (num1<num2 && num1<num3 && num1<num4 && num1<num5){
     console.log("First number is Largest number: ",num1);
 }
