@@ -1,35 +1,7 @@
-var num=prompt("Please enter a single digit nuber: ")
+var range=prompt("Enter range to find power of two: ");
+var sum=1
+for (var i=1; i<=range; i++){
+    sum=sum*2;
+}
 
-if(num==0){
-    console.log("ZERO");
-}
-else if (num==1){
-    console.log("ONE");
-}
-else if (num==2){
-    console.log("TWO");
-}
-else if (num==3){
-    console.log("THREE");
-}
-else if (num==4){
-    console.log("FOUR");
-}
-else if (num==5){
-    console.log("FIVE");
-}
-else if (num==6){
-    console.log("SIX");
-}
-else if (num==7){
-    console.log("SEVEN");
-}
-else if (num==8){
-    console.log("EIGHT");
-}
-else if (num==9){
-    console.log("NINE");
-}
-else{
-    console.log("Please enter a single digit valid number");
-}
+console.log("Power of two table upto the range is: ",sum);
