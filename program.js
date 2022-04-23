@@ -1,10 +1,8 @@
-const HEAD=1;
+var year = window.prompt("Enter a year to check leapyear or not: ");
 
-let check=Math.floor(Math.random()*10)%2;
-
-if(check==HEAD){
-    console.log("HEADS");
+if ((year%400==0) || (year%100!=0 && year % 4 == 0)){
+    console.log("entered year is leap year: ",year);
 }
 else{
-    console.log("TAILS");
+    console.log("Entered year is Not a Leap year")
 }
